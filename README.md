@@ -199,7 +199,7 @@ TWITTER_CONSUMER_SECRET=TD************Cq
 TWITTER_ACCESS_TOKEN=31**************UC
 TWITTER_ACCESS_TOKEN_SECRET=r0************S2
 
-QUERY_STRING=mango,horses,"donald -trump -duck"
+QUERY_STRING=dndvids,dndVids,d&dvids,D&Dvids,DnDvids,DnDVids,dungeonsanddragonsvids,DungeonsAndDragonsVids,rpgvids,RPGVids
 RANDOM_REPLY=Hi @${screenName} thanks for the follow! What are you working on today?,@${screenName} thanks for following! What are you working on today?
 
 RESULT_TYPE=mixed
