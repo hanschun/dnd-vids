@@ -1,7 +1,7 @@
 {
   "name": "dnd-vids-twitter-bot",
   "version": "0.0.1",
-  "description": "A bootstrap for a twitter bot!",
+  "description": "A twitter bot for RTing particular hashtags",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -10,24 +10,12 @@
     "prepublish": "npm run snyk-protect",
     "deploy": "now -E"
   },
-  "now": {
-    "alias": "twitter-bot-bootstrap"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/spences10/twitter-bot-bootstrap.git"
+    "url": "git+https://github.com/hanschun/dnd-vids.git"
   },
-  "keywords": [
-    "twitter",
-    "bot",
-    "bootstrap"
-  ],
-  "author": "Scott Spence <spences10apps@gmail.com> (https://blog.scottspence.me/)",
+
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/spences10/twitter-bot-bootstrap/issues"
-  },
-  "homepage": "https://github.com/spences10/twitter-bot-bootstrap#readme",
   "devDependencies": {
     "contributor": "0.1.25"
   },
@@ -37,16 +25,5 @@
     "snyk": "1.42.4",
     "twit": "2.2.9",
     "unique-random-array": "1.0.0"
-  },
-  "snyk": true,
-  "contributors": [
-    "Will Hurley (https://github.com/wjhurley)",
-    "Joshua Vaage (https://github.com/whaleen)",
-    "Snyk bot (https://github.com/snyk-bot)",
-    "Jade Thornton (https://github.com/Raindeer44)",
-    "Scott Spence (https://github.com/spences10)",
-    "Sergio Ruiz (https://github.com/serginator)",
-    "Paul Abrams (https://github.com/pabrams)",
-    "Millan Sanchez (https://github.com/masdc)"
-  ]
+  }
 }
